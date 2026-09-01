@@ -1,6 +1,6 @@
 cask "mini-whisper" do
-  version "0.1.7"
-  sha256 "e863be30e57e548ec7f029c1c5534f2fe54ebdae720e4d90e53baf4e411d87ff"
+  version "0.1.8"
+  sha256 "cd557ab1f74ab50fcf023e1bb318aa0cb7fae16c1656b6ad2584f9b6e8a70480"
 
   url "https://github.com/cagriy/mini-whisper/releases/download/v#{version}/MiniWhisper-#{version}-arm64.dmg"
   name "Mini Whisper"
