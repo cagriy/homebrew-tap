@@ -7,7 +7,7 @@ cask "mini-whisper" do
   desc "macOS menu bar dictation app with Whisper STT and LLM cleanup"
   homepage "https://github.com/cagriy/mini-whisper"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Mini Whisper.app"
